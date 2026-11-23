@@ -39,6 +39,11 @@ public class Main {
         default ->
           System.out.println("Invalid choice! Please try again.");
       }
+
+      if (!choice.equals("0")) {
+        System.out.println();
+        System.out.println(dino.getReaction());
+      }
     }
 
     scanner.close();

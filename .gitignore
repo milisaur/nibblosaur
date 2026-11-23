@@ -1,0 +1,14 @@
+# Mavven
+target/
+
+# Java
+*.class
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# System
+.DS_Store

@@ -6,8 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.milisaur</groupId>
-    <artifactId>dino-tamagotchi</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>nibblosaur</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+
+    <name>Nibblosaur</name>
+    <description>A tiny dinosaur with big feelings.</description>
+    <url>https://github.com/milisaur/nibblosaur</url>
 
     <properties>
         <maven.compiler.release>25</maven.compiler.release>
@@ -15,3 +19,4 @@
     </properties>
 
 </project>
+

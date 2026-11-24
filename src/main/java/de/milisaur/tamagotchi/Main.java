@@ -26,8 +26,10 @@ public class Main {
       switch (choice) {
         case "1" ->
           dino.feed();
-        case "2" ->
+        case "2" -> {
+          DinoAnimation.play();
           dino.play();
+        }
         case "3" ->
           dino.sleep();
         case "4" ->

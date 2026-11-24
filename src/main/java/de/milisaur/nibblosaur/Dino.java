@@ -1,4 +1,4 @@
-package de.milisaur.tamagotchi;
+package de.milisaur.nibblosaur;
 
 import java.util.Random;
 
@@ -15,8 +15,6 @@ public class Dino {
     this.happiness = 80;
     this.energy = 70;
   }
-
-  // METHODEN
 
   public void feed() {
     satiety = Math.min(100, satiety + 20);
@@ -53,8 +51,6 @@ public class Dino {
     System.out.println("Mood: " + getMood());
   }
 
-  // Getter
-
   public Mood getMood() {
     if (satiety <= 20) {
       return Mood.HUNGRY;
@@ -82,7 +78,7 @@ public class Dino {
       case HUNGRY -> new String[] {
           name + " looks around for food.",
           name + "'s stomach is growling!",
-          name + " desparately wants a snack!"
+          name + " desperately wants a snack!"
       };
 
       case TIRED -> new String[] {

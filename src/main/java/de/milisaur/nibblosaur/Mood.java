@@ -1,4 +1,4 @@
-package de.milisaur.tamagotchi;
+package de.milisaur.nibblosaur;
 
 public enum Mood {
   HAPPY,

@@ -1,4 +1,4 @@
-package de.milisaur.tamagotchi;
+package de.milisaur.nibblosaur;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Main {
 
     while (running) {
       System.out.println();
-      System.out.println("=== DINO TAMAGOTCHI ===");
+      System.out.println("=== NIBBLOSAUR ===");
       System.out.println("[1] Feed");
       System.out.println("[2] Play");
       System.out.println("[3] Sleep");

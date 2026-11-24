@@ -1,4 +1,4 @@
-package de.milisaur.tamagotchi;
+package de.milisaur.nibblosaur;
 
 public class DinoAnimation {
 

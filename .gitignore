@@ -1,14 +1,10 @@
-# Mavven
 target/
-
-# Java
 *.class
 *.log
-
-# IDE
 .idea/
 .vscode/
 *.iml
-
-# System
+.classpath
+.project
+.settings/
 .DS_Store

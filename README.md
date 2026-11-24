@@ -40,7 +40,7 @@ mvn clean compile
 Run the game:
 
 ```bash
-java -cp target/classes de.milisaur.tamagotchi.Main
+java -cp target/classes de.milisaur.nibblosaur.Main
 ```
 
 ## Development

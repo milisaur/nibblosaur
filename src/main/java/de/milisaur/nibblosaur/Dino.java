@@ -97,4 +97,17 @@ public class Dino {
     int index = random.nextInt(reactions.length);
     return reactions[index];
   }
+
+  public int getSatiety() {
+    return satiety;
+  }
+
+  public int getHappiness() {
+    return happiness;
+  }
+
+  public int getEnergy() {
+    return energy;
+  }
+
 }
